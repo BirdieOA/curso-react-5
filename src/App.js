@@ -1,5 +1,5 @@
 import "./App.css";
-import Actividad2 from "./Actividad2";
+import Actividad1 from "./Actividad1";
 
 function App() {
   const reyes = [
@@ -42,7 +42,7 @@ function App() {
 
   return (
     <>
-      <Actividad2 reyes={reyes} />
+      <Actividad1 reyes={reyes} />
     </>
   );
 }
